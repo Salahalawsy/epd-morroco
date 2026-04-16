@@ -52,10 +52,8 @@
     display:flex; align-items:center; gap:14px;
   }
   .nav-logo-badge {
-    width:42px; height:42px; border:1.5px solid var(--gold);
+    width:48px; height:48px;
     display:flex; align-items:center; justify-content:center;
-    font-family:'Cormorant Garamond', serif; font-size:18px; font-weight:700;
-    color:var(--gold); letter-spacing:1px;
   }
   .nav-logo-text { display:flex; flex-direction:column; }
   .nav-logo-main { font-family:'DM Sans', sans-serif; font-size:13px; font-weight:500; letter-spacing:3px; color:var(--white); text-transform:uppercase; }
@@ -380,7 +378,16 @@
 <!-- NAV -->
 <nav id="navbar">
   <div class="nav-logo">
-    <div class="nav-logo-badge">EPD</div>
+    <div class="nav-logo-badge">
+      <svg width="48" height="48" viewBox="0 0 60 60">
+        <polygon points="30,8 52,18 52,42 30,52" fill="#C9A84C"/>
+        <polygon points="8,18 30,8 30,52 8,42" fill="#8a6d2e"/>
+        <polygon points="8,18 52,18 30,8" fill="#e8c96d"/>
+        <line x1="8" y1="18" x2="52" y2="18" stroke="#0A0A0A" stroke-width="0.8"/>
+        <line x1="52" y1="18" x2="52" y2="42" stroke="#0A0A0A" stroke-width="0.8"/>
+        <line x1="30" y1="8" x2="30" y2="52" stroke="#0A0A0A" stroke-width="0.8"/>
+      </svg>
+    </div>
     <div class="nav-logo-text">
       <span class="nav-logo-main">Emirates Projects</span>
       <span class="nav-logo-sub">& Development — Morocco</span>
@@ -708,7 +715,17 @@
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-logo">EPD</div>
+  <div class="footer-logo" style="display:flex;align-items:center;gap:10px;">
+    <svg width="28" height="28" viewBox="0 0 60 60">
+      <polygon points="30,8 52,18 52,42 30,52" fill="#C9A84C"/>
+      <polygon points="8,18 30,8 30,52 8,42" fill="#8a6d2e"/>
+      <polygon points="8,18 52,18 30,8" fill="#e8c96d"/>
+      <line x1="8" y1="18" x2="52" y2="18" stroke="#0A0A0A" stroke-width="0.8"/>
+      <line x1="52" y1="18" x2="52" y2="42" stroke="#0A0A0A" stroke-width="0.8"/>
+      <line x1="30" y1="8" x2="30" y2="52" stroke="#0A0A0A" stroke-width="0.8"/>
+    </svg>
+    <span style="font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--gold);">EPD</span>
+  </div>
   <div class="footer-copy">© 2026 Emirates Projects & Development · الإمارات للمشاريع والتطوير · Kingdom of Morocco</div>
   <div class="footer-links">
     <a href="#about">About</a>
